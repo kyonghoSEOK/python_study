@@ -11,8 +11,9 @@ print(f'my name is {name}')
 
 """
 # input 은 기본적으로 문자열 취급받는다
-my_money = input("내돈 : ")
-your_money = input("상대방 돈 : ")
+# int(변환할값)
+my_money = int(input("내돈 : "))
+your_money = int(input("상대방 돈 : "))
 
 print(f'돈을 합치면 {my_money + your_money} 이다.')
 """
